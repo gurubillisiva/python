@@ -1,7 +1,7 @@
 N,K=map(int,input().split())
 arr=list(map(int,input().split()))
-sum=0
+summ=0
 for i in range(0,K):
-  sum=sum+arr[i]
-print(sum)
+  summ=sum+arr[i]
+print(summ)
   
