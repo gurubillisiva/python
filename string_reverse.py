@@ -1,2 +1,5 @@
 z=input()
-print(z[::-1])
+a=''
+for i in range(len(z)-1,-1,-1):
+	a=a+z[i]
+print(a)
