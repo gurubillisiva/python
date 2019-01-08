@@ -1,5 +1,7 @@
-n=int(input())
-fact=1
-for i in range(1,n+1):
-	fact=fact*i
-print(fact)
+z=int(input())
+x=1
+a=1
+while a<=z:
+	x=x*a
+	a+=1
+print(x)
